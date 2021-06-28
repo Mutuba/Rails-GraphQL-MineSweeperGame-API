@@ -1,0 +1,18 @@
+
+default: &default
+  adapter: postgresql
+  pool: 5
+  timeout: 5000
+
+development:
+  <<: *default
+  database: mines_sweeper_database_development
+
+
+test:
+  <<: *default
+  database: mines_sweeper_database_test
+
+production:
+  <<: *default
+  database: mines_sweeper_database_production
