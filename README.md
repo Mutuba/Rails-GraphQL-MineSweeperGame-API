@@ -7,13 +7,6 @@ Init
 -----
 
 ```bash
-cp config/environment_variables.example.yml config/environment_variables.yml
-```
-
-Filled the variables with the right values of your environment
-
-
-```bash
 bundle install
 ```
 ```bash
