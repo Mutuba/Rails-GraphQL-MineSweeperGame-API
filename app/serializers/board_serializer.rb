@@ -12,7 +12,7 @@
 #
 
 class BoardSerializer < ActiveModel::Serializer
-  attributes :rows, :cols, :mines_percentage
+  attributes :id, :rows, :cols, :mines_percentage
   has_many :cells
   belongs_to :game
 end

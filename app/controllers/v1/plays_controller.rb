@@ -9,7 +9,6 @@ module V1
     end
 
     def create
-      # byebug
       play = @game.play!(play_params)
       json_response play, :created, include: %w[game.board.cells]
     end
