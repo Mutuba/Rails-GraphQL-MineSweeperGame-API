@@ -1,1 +1,1 @@
-# Rails-GraphQL-MineSweeperGame-API-
+# Rails-GraphQL-MineSweeperGame-API
